@@ -1,0 +1,187 @@
+
+.content{
+height: 100%;
+background-color:#46211A;
+}
+h1{
+	font-size: 7vw;
+    color: #ffffff;
+    z-index: 3;
+	text-align: center;
+}
+h2,h3{
+text-align: center;
+    font-size: 3vw;
+}
+h4{
+	text-align: center;
+    font-size: 2vw;
+}
+p{
+
+	margin: 0 2vw;
+    font-size: 1.4vw;
+}
+header{
+	background-image: url(https://i.gifer.com/origin/95/95396fe4265aafabea4f81e2324dd7c0_w200.gif);
+	height: 150px;
+	background-color: lightsalmon;
+
+}
+nav{
+	color: white;
+	width: 15%;
+	background-color: #46211A;
+	float: left;
+	height: 500px;
+}
+ul{
+	list-style: none;
+}
+
+li{
+	height: 30px;
+	width: 80%;
+	border: dotted 2px gold;
+	margin-bottom: 20px;
+	text-align: center;
+	font-size: 20px;
+}
+li:hover{
+	background-color: lightseagreen;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+main{
+
+	width: 70%;
+	background-color: #DBD7D2;;
+	float: left;
+	}
+aside{
+color: white;
+	width: 15%;
+	background-color: #46211A;
+	
+	float: left;
+	}
+footer{
+	height: 200px;
+	background-color:#909497;
+	clear: both;
+}
+
+/* CSS */
+.button-50 {
+  appearance: button;
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display:block;
+  font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: auto;
+  overflow: visible;
+  width: 80%;
+  height: 50px;
+ margin-bottom: 10px;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+}
+
+.button-50:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+  .bgVideo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-items: center;
+}
+.bgVideo:video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 1;
+}
+@media only screen and (max-width:620px) {
+    nav,
+    main,
+    aside {
+        width: 100%;
+        }
+    p{
+        font-size: 4vw;
+    }
+    li{
+        font-size: 3vw; ;
+        } 
+    figcaption{
+        font-size: 4vw;
+    }
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

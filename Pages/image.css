@@ -1,0 +1,68 @@
+p{
+	font-size:  50px;
+	color: greenyellow;
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmpfMGCfU0frSa4xsp31m5irELqnlZ_U-5Jg&usqp=CAU);
+margin-bottom: 100px;
+}
+body{
+	background-image: url(https://www.kizoa.com/img/e8nZC.gif);
+background-repeat: no-repeat;
+background-position:  100% ;
+background-attachment:fixed ;
+background-size: 200px;
+}
+
+.k1{
+margin: auto;
+display: block;
+border-radius: 50%;
+box-shadow:  20px -20px 50px grey;
+margin-bottom: 20px;
+}
+.k2{
+	width: 200px;
+	margin: auto;
+display: block;
+border-radius:50%;
+box-shadow:  20px -20px 50px grey;
+margin-bottom: 20px;
+}
+.fs1{
+	width: 400px;
+	height: 400px;
+background-image:linear-gradient(45deg,rgba(0, 0, 0, 0.5),rgba(255, 0, 0, 0.5)) ,url(https://media.tenor.com/9vRAkntogEMAAAAd/background.gif);
+background-size: cover;
+border-radius: 20% 40%;
+}
+.fs2{
+	width:400px;
+	height: 400px;
+background-image: url(https://img.freepik.com/free-vector/realistic-galaxy-background_52683-12122.jpg?w=2000);
+background-size: cover;
+border-radius: 20% 40%;
+border: dotted 10px  red;
+}
+.fs3{
+	width: 400px;
+	height: 400px;
+background-image: url(https://burst.shopifycdn.com/photos/city-lights-through-rain-window.jpg?width=1200&format=pjpg&exif=1&iptc=1);
+background-size: cover;
+border-radius: 20% 40%;
+border: dotted 10px  red;
+}
+
+
+
+.catsandstars {
+  background-image: url(https://img1.picmix.com/output/stamp/normal/2/2/7/3/1983722_55200.gif), url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Cat.png/613px-Cat.png);
+height:450px;
+}
+
+
+
+
+.dogsandstars{
+	background-image: url(https://klike.net/uploads/posts/2020-06/1591253681_1.jpg);
+height: 450px;
+
+}

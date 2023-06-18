@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>градиент</title>
+	<style type="text/css">
+		body{
+			background-color: 	white;
+		}
+		p{ 
+			font-size: 1cm;
+			color: white;
+			background:linear-gradient(white,green,red);
+		}
+		div{
+			width: 300px;
+			height: 300px;
+			margin: 20px;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+<p>Ми вивчаемо градієнт.Флаг Маврикии</p>
+<div style="background: linear-gradient(red 0% 25%,blue 25% 50%,yellow 50% 75%,green 75% 100%);width: 450px;"></div>
+<div style="background:conic-gradient(green,blue,pink,purple);width: 500px;"></div>
+<div style="background:radial-gradient(green,blue,pink,purple);width: 500px;"></div>
+<div style="background:radial-gradient(yellow 20%,blue);border-radius:50%;width: 450px;"></div>
+<div style="background:repeating-radial-gradient(yellow 20% ,blue 40% ,pink 60%,purple 80%,green 100%);border-radius: 50%;"></div>
+
+</body>
+</html>
+
+<div style="background:repeating-conic-gradient(green 30deg, yellow 60deg , blue 90deg,orange 100deg,white 130deg,black 160deg);border-radius: 50%;"></div>
+<div style="background:repeating-radial-gradient(red 0 8%, yellow 8% 16%, blue 16% 24%);border-radius: 100%;"></div>
+<div style="background:conic-gradient(red 120deg, yellow 120deg 240deg, blue 240deg);border-radius: 50%;"></div>
+<div style="background:repeating-linear-gradient(red 0% 25%,yellow 25% 50%,green 50% 75%,darkblue 75% 100%);border-radius: 50%;"></div>
+</div>

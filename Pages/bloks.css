@@ -1,0 +1,82 @@
+body{
+	background-color: black;
+	color: #fff;
+}
+p{
+	border: solid 10px purple;
+	font-size: 50px;
+	display:inline ;
+}
+span{
+	border:dotted 5px pink;
+
+}
+li{
+	font-size: 40px;
+border: dashed 5px green;
+display: inline;
+}
+li:hover{
+	background-color: orange;
+}
+#first{
+	border: double 10px fuchsia;
+	width: 300px;
+	height: 300px;
+	margin-left: 100px;
+	padding: 100px;
+}
+#second{
+	width: 500px;
+	height: 500px;
+	border: ridge 10px aquamarine;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+}
+#third{
+	width: 500px;
+	height: 500px;
+	border:groove 10px green;
+
+}
+#fifth,#fourth{
+	color: darkred;
+    width: 800px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 50px;
+}
+#fourth{
+    border-top: double 10px #fff;
+    border-bottom: double 10px #fff;
+}
+#fifth{
+    border-right: double 10px #fff;
+    border-left: double 10px #fff;
+}
+#sixth,#seventh,#eight{
+    border: groove 10px goldenrod;
+    
+    
+}
+#sixth{
+	margin-top:70px;
+    width: 900px;
+    height: 900px;
+    background-color: indianred;
+   
+}
+#seventh{
+    width: 670px;
+    height: 670px;
+    background-color: greenyellow;
+    margin: 50px auto;
+}
+#eight{
+    width: 500px;
+    height: 500px;
+    background-color: goldenrod;
+    margin: 45px auto;
+}

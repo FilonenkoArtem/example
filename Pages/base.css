@@ -1,0 +1,87 @@
+body{
+	background-color: wheat;
+}
+p{
+	font-size: 50px;
+	color: red;
+}
+.fs2{
+	font-family: 'Pacifico', cursive;
+		text-align: center;
+
+	font-weight: 900;
+	font-variant: small-caps;
+}
+.fs3{
+		text-align: center;
+
+	font-style: oblique;
+}
+.fs4{
+
+font-family: 'Press Start 2P', cursive;
+		text-align: center;
+
+	font-family: "Gill Sans Extrabold",sans-serif;
+	text-transform: uppercase;
+	word-spacing: 10px;
+}
+.fs5{
+		text-align: center;
+
+	font-family: "Lucida Console,Courier",monospace;
+	text-transform: lowercase;
+	letter-spacing: 5px;
+}
+.fs1{
+		text-align: center;
+
+	text-transform: capitalize;
+
+}
+.fs6{
+		text-align: center;
+
+	text-decoration: underline;
+	text-underline-position: under;
+	text-decoration-style: wavy;
+	text-decoration-color: blue;
+}
+.fs7{
+	text-align: center;
+text-decoration: underline;
+text-underline-position: under;
+text-decoration-style: dotted;
+text-decoration-color: green;
+text-decoration-line: underline,overline;
+}
+.fs8{
+		text-align: center;
+
+text-shadow: 2px -2px orange;
+}
+.fs9{
+		text-align: center;
+
+	text-shadow: 0 0 10px orange;
+}
+.fs10{
+		text-align: center;
+
+	font-size: 75px;
+text-shadow: 2px -2px red,4px -4px black;
+
+}
+.f1{
+		text-align: center;
+
+	font-size: 2cm;
+	font-weight: 700;
+}
+.fs11{
+	text-align: center;
+text-emphasis-position: over right;
+}
+.fs12{
+	text-align: center;
+}

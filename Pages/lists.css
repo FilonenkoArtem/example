@@ -1,0 +1,18 @@
+ul,ol{
+	font-size: 24px;
+	color: darkred;
+}
+ul li::marker{
+	color: blue;
+}
+.mr li{
+padding-left:10PX ;
+}
+@counter-style circled-digits{
+  system: cyclic;
+  symbols: 😀 👻 👽 👾 🤖 🎃 😹 👋 👀 💋;
+  suffix:"";
+}
+ul.cd{
+	list-style: cirkle-digits;
+}
